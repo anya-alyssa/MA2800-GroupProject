@@ -2,7 +2,14 @@
 
 /* Light helpers for the research page only (kept minimal) */
 
-
+html, body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;				
+  font-size: 1.1em;
+  text-align: center;
+  color: #FFFFFF;
+  }
 
 .research-section{
     margin: 16px 0 22px 0;

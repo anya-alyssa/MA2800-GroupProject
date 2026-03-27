@@ -1,12 +1,12 @@
 
 html, body {
     margin: 0;
-    padding: 20;
+    padding: 20px;
     font-family: 'Courier New', Courier, monospace;				
     font-size: 1.1em;
     text-align: center;
     color: #FFFFFF;
-                }
+    }
     
     .main header,
     .main footer,
@@ -48,7 +48,15 @@ html, body {
     .main-content {
         flex: 1 1 auto;
         color: #777777;
-                }
+    }
+
+    .divider {
+        border: none;
+        border-top: 30px solid red;
+        margin: 28px 0;
+        opacity: 0.9;
+    }
+                
     
     @media (min-width: 768px) {
     

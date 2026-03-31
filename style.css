@@ -76,9 +76,13 @@ a:hover {
     margin: 40px 0;
  }
 
-b {
+ .bold-text {
     letter-spacing: 1.2px;
     font-size: 1.2em;
+  }
+
+  .in-text {
+    color: #2c3e50
   }
                  
  @media (min-width: 768px) {
